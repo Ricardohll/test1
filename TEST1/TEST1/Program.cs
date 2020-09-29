@@ -6,7 +6,16 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!!!");
+            double s1, s2;
+
+            s1 = SquateSolution.SolvedEcuation(0.1, 2.0, 3.0);
+
+            System.Console.WriteLine("la solucion de s1 es: " + s1);
+
+            s2 = SquateSolution.SolvedEcuation2(5.0, 2.0);
+
+            System.Console.WriteLine("la solucion de s2 es: " + s2);
+
         }
     }
 }

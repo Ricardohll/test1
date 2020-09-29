@@ -16,7 +16,10 @@
 
         public static double SolvedEcuation2(double a2, double b2)
         {
+            double x2;
 
+            x2 = -b2 / a2;
+            return x2;
         }
     }
 }
