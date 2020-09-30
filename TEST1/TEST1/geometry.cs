@@ -2,7 +2,7 @@
 {
     class geometry
     {
-        public static GetVector(double x, double y)
+        public static double GetVector(double x, double y)
         {
             double aux, length;
 

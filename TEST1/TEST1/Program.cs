@@ -16,7 +16,9 @@ namespace TEST1
 
             System.Console.WriteLine("la solucion de s2 es: " + s2);
 
-            vector = geometry.GetVector
+            vector = geometry.GetVector(1.0, 1.0);
+
+            System.Console.WriteLine("la solucion del vector es: " + vector);
 
         }
     }
