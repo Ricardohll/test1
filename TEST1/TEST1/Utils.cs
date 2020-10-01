@@ -26,5 +26,13 @@ namespace TEST1
             else
                 return b2;
         }
+        // IsEven devuelve true si el valor es par y false en caso contrario.
+        public static bool IsEven(int value)
+        {
+            if ((value % 2) == 0)
+                return true;
+            else
+                return false;
+        }
     }
 }

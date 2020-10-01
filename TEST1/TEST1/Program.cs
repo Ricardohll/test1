@@ -8,6 +8,7 @@ namespace TEST1
         {
             double vector, vector3d;
             int min, max;
+            bool even;
 
             vector = geometry.GetVector(1.0, 1.0);
 
@@ -24,6 +25,10 @@ namespace TEST1
             max = Utils.GetMaxValue(1, 5);
 
             System.Console.WriteLine("El valor mas pequeño es: " + max);
+
+            even = Utils.IsEven(6);
+
+            System.Console.WriteLine("El valor es: " + even);
         }
     }
 }
