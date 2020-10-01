@@ -6,7 +6,8 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            double vector, vector3d, min;
+            double vector, vector3d;
+            int min, max;
 
             vector = geometry.GetVector(1.0, 1.0);
 
@@ -20,7 +21,9 @@ namespace TEST1
 
             System.Console.WriteLine("El valor mas pequeño es: " + min);
 
+            max = Utils.GetMaxValue(1, 5);
 
+            System.Console.WriteLine("El valor mas pequeño es: " + max);
         }
     }
 }
