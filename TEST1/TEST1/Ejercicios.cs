@@ -23,5 +23,22 @@ namespace TEST1
 
             }
         }
+
+        //Ejercicio2: Haz una funcion que imprima los numero pares que hay desde el cero hasta n
+
+        public static void Ejercicio2(int n)
+        {
+            int i;
+
+            i = 0;
+
+            while (i < n)
+            {
+                if (Utils.IsEven(i))
+                System.Console.WriteLine(i);
+                i++;
+
+            }
+        }
     }
 }
