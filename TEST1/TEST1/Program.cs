@@ -7,7 +7,7 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            bool es_primo = Ejercicios.IsPrime(27);
+            bool es_primo = Ejercicios.IsPrime(77);
         }
     }
 }
