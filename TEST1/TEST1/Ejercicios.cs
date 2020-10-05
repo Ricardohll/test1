@@ -8,7 +8,7 @@ namespace TEST1
     {
         //Ejercicio: Hacer una funcion que imprima por pantalla los numeros del 0 al 99
 
-        public static void Ejercicio()
+        public static void Ejercicio1()
         {
             int contador;
             
