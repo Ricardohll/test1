@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace TEST1
 {
@@ -6,7 +7,7 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            Ejercicios.Ejercicio2(10);
+            bool es_primo = Ejercicios.IsPrime(27);
         }
     }
 }
