@@ -40,19 +40,23 @@ namespace TEST1
 
             }
         }
-
-        public static bool IsPrime(int number)
+        //Ejercicio 3: si es primo o no
+        public static void Ejercicio3(int n)
         {
-            int i = 2;
+            bool aux = Utils.IsPrime(i);
 
-            while(i < number)
+            if (aux)
             {
-                if ((number % i) == 0)
-                    return false;
-                ++i;
+                System.Console.WriteLine("El " + i + " es primo");
             }
-            
-            return true;
+            else
+            {
+                System.Console.WriteLine("El " + i + " no es primo");
+            }
+            ++i;
         }
+        
+       
+
     }
 }
