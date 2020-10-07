@@ -49,13 +49,13 @@ namespace TEST1
             {
                 bool aux = Utils.IsPrime(n);
                 if (aux)
-                    {
+                {
                         System.Console.WriteLine("El " + n + " es primo");
-                    }
+                }
                     else
-                    {
+                {
                         System.Console.WriteLine("El " + n + " no es primo");
-                    }
+                }
                 ++n;
             }
         }
