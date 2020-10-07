@@ -7,6 +7,7 @@ namespace TEST1
 {
     class Utils
     {
+        // identifica si a es menor que b
         public static int GetMinValue(int a, int b)
         {
             if (a < b)
@@ -19,6 +20,7 @@ namespace TEST1
             }
         }
 
+        // identifica si a es mayor que b
         public static int GetMaxValue(int a2, int b2)
         {
             if (a2 > b2)
@@ -34,7 +36,7 @@ namespace TEST1
             else
                 return false;
         }
-
+        // devuelve true si es primo o false en caso contrario
         public static bool IsPrime(int number)
         {
             int i = 2;
