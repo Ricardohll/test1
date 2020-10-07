@@ -43,17 +43,21 @@ namespace TEST1
         //Ejercicio 3: si es primo o no
         public static void Ejercicio3(int n)
         {
-            bool aux = Utils.IsPrime(n);
+            
 
-            if (aux)
+            while (n <= 20)
             {
-                System.Console.WriteLine("El " + n + " es primo");
+                bool aux = Utils.IsPrime(n);
+                if (aux)
+                    {
+                        System.Console.WriteLine("El " + n + " es primo");
+                    }
+                    else
+                    {
+                        System.Console.WriteLine("El " + n + " no es primo");
+                    }
+                ++n;
             }
-            else
-            {
-                System.Console.WriteLine("El " + n + " no es primo");
-            }
-            ++n;
         }
         
        
