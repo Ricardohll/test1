@@ -43,8 +43,6 @@ namespace TEST1
         //Ejercicio 3: si es primo o no
         public static void Ejercicio3(int n)
         {
-            
-
             while (n <= 20)
             {
                 bool aux = Utils.IsPrime(n);
