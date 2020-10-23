@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace TEST1
 {
@@ -57,6 +58,13 @@ namespace TEST1
                 ++n;
             }
         }
+
+        public static void Asteriscos(int count)
+            int i = 0;
+
+        while(int )
+            
+
         
        
 
