@@ -59,11 +59,18 @@ namespace TEST1
             }
         }
 
-        public static void Asteriscos(int count)
+        // Ejercicio 4: Devuelve el numero en asteriscos
+        public static void Ejercicio4(int count)
+        {
             int i = 0;
 
-        while(int )
-            
+            while (i < count)
+            {
+                System.Console.Write("*");
+                i++;
+            }
+
+        }  
 
         
        
