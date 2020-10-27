@@ -66,11 +66,19 @@ namespace TEST1
 
             while (i < count)
             {
-                System.Console.Write("*");
+                System.Console.WriteLine("*");
                 i++;
             }
 
-        }  
+        }
+
+        public static void Ejercicio5(int count1)
+        {
+            for(int i = 0 ; i <= 100 ; i++)
+            {
+                System.Console.WriteLine("*");
+            }
+        }
 
         
        
