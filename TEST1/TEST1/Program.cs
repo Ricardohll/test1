@@ -7,8 +7,8 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            EjercicioExamen.Ejercicio3(1, 2);
-            System.Console.WriteLine("el menor es" + )
+            EjercicioExamen.ejercicio10(10);
+            
             
         }
     }
