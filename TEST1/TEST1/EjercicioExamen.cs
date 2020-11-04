@@ -36,7 +36,7 @@ namespace TEST1
             // if (a < b)
             // return a;
             // return b;
-            
+
             // 2 opcion
             //bool result
             // if (a < b)
@@ -52,7 +52,7 @@ namespace TEST1
             {
                 return true;
             }
-                else
+            else
             {
                 return false;
             }
@@ -65,7 +65,7 @@ namespace TEST1
             // if (a < b)
             // return true;
             // return false;
-            
+
         }
         // Ejercicio 5: Hacer una funcion para que se le pasen tres string y devuelva la que concalizacion
         public static string Ejercicio5(string a, string b, string c)
@@ -86,7 +86,7 @@ namespace TEST1
 
         }
         // Ejercicio 7: hacer una funcion que te debuelva el menor de tres enteros
-        public static int Ejercicio8(int a, int b, int c)
+        public static int Ejercicio7(int a, int b, int c)
         {
             if (a <= b && a <= c)
                 return a;
@@ -117,7 +117,7 @@ namespace TEST1
         // "error desconocido" en cualquier otro caso
         public static void ejercicio8(int code)
         {
-            switch(code)
+            switch (code)
             {
                 case 0:
                     System.Console.WriteLine("error grave");
@@ -141,8 +141,8 @@ namespace TEST1
         public static void ejercicio9(int a)
         {
             int i = 0;
-            while(a <= i)
-            {                
+            while (a <= i)
+            {
                 System.Console.Write(i + ", ");
                 i += 3;
             }
@@ -150,8 +150,8 @@ namespace TEST1
         // Ejercicio 10: Hacer una funcion que imprima por pantalla la siguiente serie:
         //serie(10) 0,1,2,3,4,5,6,7,8,9
         public static void ejercicio10(int a)
-        {           
-            for(int i = 0 ; i < a ; i++)
+        {
+            for (int i = 0; i < a; i++)
             {
                 System.Console.Write(i + ", ");
             }
@@ -160,13 +160,51 @@ namespace TEST1
         public static void ejercicio11(int a)
         {
             int i = 0;
-            for ( i = 0; i < a; i++)
+            for (i = 0; i < a; i++)
                 System.Console.Write(i + ", ");
 
-            if (i < a-1)
+            if (i < a - 1)
                 System.Console.Write(i);
         }
-    }
 
-    
+        // Ejercicio 12: Hacer una funcion que se le pase un numero e imprima una serie de asteriscos
+        public static void ejercicio12(int a)
+        {
+            for (int b = 0; b < a; b++)
+                System.Console.Write("*");
+        }
+        // Ejercicio 13: Hacer una funcion que se le pase un numero e imprima "* + * + * ..."
+        public static void ejercicio13(int a)
+        {
+            for (int i = 0; i < a; i++)
+            {
+                if ((i % 2) == 0)
+                    System.Console.Write("* ");
+                else
+                    System.Console.Write("+ ");
+            }
+        }
+
+        // Ejercicio 14: Hacer una funcion que devuelva el menor de nueve enteros, la funcion tiene que ocupar una sola linea
+        public static int ejercicio14(int n1, int n2, int n3, int n4, int n5, int n6, int n7, int n8, int n9)
+        {
+            int menor1 = Ejercicio7(n1, n2, n3);
+            int menor2 = Ejercicio7(n4, n5, n6);
+            int menor3 = Ejercicio7(n7, n8, n6);
+            return Ejercicio7(menor1, menor2, menor3);
+        }
+        // Ejercicio 15:
+        public static void ejercicio15(int n1)
+        {
+            for(int f=0; f<n1; f++)
+            {
+                for(int c=0; c<n1; c++)
+                {
+                    System.Console.Write("*");
+                }
+
+                System.Console.WriteLine("");
+            }
+        }
+    }
 }
