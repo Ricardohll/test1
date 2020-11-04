@@ -190,7 +190,7 @@ namespace TEST1
         {
             int menor1 = Ejercicio7(n1, n2, n3);
             int menor2 = Ejercicio7(n4, n5, n6);
-            int menor3 = Ejercicio7(n7, n8, n6);
+            int menor3 = Ejercicio7(n7, n8, n9);
             return Ejercicio7(menor1, menor2, menor3);
         }
         // Ejercicio 15:
