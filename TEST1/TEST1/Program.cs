@@ -19,7 +19,7 @@ namespace TEST1
         }
         static void Main(string[] args)
         {
-            EjercicioExamen.ejercicio20(10);
+            EjercicioExamen.ejercicio22(10);
             
         }
     }

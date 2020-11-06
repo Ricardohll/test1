@@ -301,7 +301,7 @@ namespace TEST1
         // Ejercicio 22: Hacer una funcion que devuelva  dos elevado a n, siendo n el parametro que reciba la funcion
         public static int ejercicio22(int n)
         {
-            int solucion = 0;
+            int solucion = 1;
 
             for(int i=0; i <= n; i++)
             {
