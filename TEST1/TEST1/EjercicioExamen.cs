@@ -273,5 +273,43 @@ namespace TEST1
                 System.Console.WriteLine("*");
             }
         }
+        // Ejercicio 20:
+        public static void ejercicio20(int n)
+        {
+            for(int f=0; f<n; f++)
+            {
+                int nesp1 = f * 2;
+                int nesp2 = ((n - f - 1) * 2);
+                for(int c=0; c<nesp1; c++)
+                {
+                    System.Console.Write(" ");
+                }
+                System.Console.Write("*");
+                for(int c1=0; c1<nesp2; c1++)
+                {
+                    System.Console.Write(" ");
+                }
+                System.Console.WriteLine("*");
+            }
+        }
+        // Ejercicio 21:
+        public static void ejercicio21(int n)
+        {
+            ejercicio19(n);
+            ejercicio20(n);
+        }
+        // Ejercicio 22: Hacer una funcion que devuelva  dos elevado a n, siendo n el parametro que reciba la funcion
+        public static int ejercicio22(int n)
+        {
+            int solucion = 0;
+
+            for(int i=0; i <= n; i++)
+            {
+              solucion *=2;
+            }
+
+            return solucion;
+        }
+
     }
 }
