@@ -206,5 +206,72 @@ namespace TEST1
                 System.Console.WriteLine("");
             }
         }
+        // Ejercicio 16:
+        public static void ejercicio16(int n)
+        {
+            for(int f=0; f<n; f++)
+            {
+                for(int c=0; c<n; c++)
+                {
+                    
+                    if ((f % 2) == 0)
+                        System.Console.Write("*");
+                    else
+                        System.Console.Write("+");
+                    
+                }
+                System.Console.WriteLine("");
+            }
+        }
+        // Ejercicio 17:
+        public static void ejercicio17(int n)
+        {
+            for(int f=0; f<n; f++)
+            {
+                for(int c=0; c<=f; c++)
+                {
+                    System.Console.Write("*");
+                }
+
+                System.Console.WriteLine("");
+            }
+        }
+        // Ejercicio 18:
+        public static void ejercicio18(int n)
+        {
+            for(int f=0; f<n; f++)
+            {
+                int nespacios = n - f - 1;
+                int nasteriscos = f + 1;
+                for(int c=0; c<nespacios; c++)
+                {
+                    System.Console.Write(" ");
+                }
+                for(int c1=0; c1<nasteriscos; c1++)
+                {
+                    System.Console.Write("*");
+                }
+                System.Console.WriteLine("");
+            }
+        }
+        // Ejercicio 19: 
+        public static void ejercicio19(int n)
+        {
+            for(int f=0; f<n; f++)
+            {
+                int nesp1 = n - f - 1;
+                int nesp2 = f * 2;
+                for(int c=0; c<nesp1; c++)
+                {
+                    System.Console.Write(" ");
+                }
+                System.Console.Write("*");
+                for(int c1=0; c1<nesp2; c1++)
+                {
+                    System.Console.Write(" ");
+                }
+                System.Console.WriteLine("*");
+            }
+        }
     }
 }

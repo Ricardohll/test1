@@ -7,7 +7,7 @@ namespace TEST1
     {
         static void Main(string[] args)
         {
-            EjercicioExamen.ejercicio15(10);
+            EjercicioExamen.ejercicio19(10);
             
             
         }
