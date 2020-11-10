@@ -310,6 +310,35 @@ namespace TEST1
 
             return solucion;
         }
+        // Ejercicio 23:
+        public static void ejercicio23()
+        {
+            for(int f=0; f<=10; f++)
+            {
+                for (int c = 0; c <= 70; c++)
+                {
+                    if (0 <= c && c <= 6 && 0 <= f && f <= 2)
+                    {
+                        int flag = f + c;
+                        if ((flag % 2) == 0)
+                            System.Console.Write("+");
+                        else
+                            System.Console.Write(" ");
+                    }
+                    else if ((f % 4) < 2)
+                    {
+                        System.Console.Write("*");
+                    }
+                    else
+                    {
+                        System.Console.Write(" ");
+                    }
+                }
+                System.Console.WriteLine("");
+            }
+
+        }
 
     }
+
 }
