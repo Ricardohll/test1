@@ -368,6 +368,17 @@ namespace TEST1
                 System.Console.WriteLine();
             }
         }
+        //Ejercicio 26: Escribe una funcion que devuelva el sumatorio de un numero
+        public static int ejercicio26(int n)
+        {
+            int a = 0;
+            for(int i=1; i<=n; i++)
+            {
+              a = a + i;
+              
+            }
+            return a;
+        }
 
     }
 
